@@ -1,0 +1,2 @@
+com/prof18/sharedserialization/androidApp/BuildConfig.java
+ com.prof18.sharedserialization.androidApp.BuildConfig

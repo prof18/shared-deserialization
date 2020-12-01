@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml:2:1-119
+INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml:2:1-119
+INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml:2:1-119
+	package
+		ADDED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml:2:70-117
+		INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml

@@ -1,0 +1,11 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.prof18.sharedserialization.shared" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="24"
+6-->/Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/Users/marco/Workspace/Examples/SharedSerialization/shared/src/androidMain/AndroidManifest.xml
+8
+9</manifest>

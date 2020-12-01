@@ -1,0 +1,2 @@
+com/prof18/sharedserialization/shared/BuildConfig.java
+ com.prof18.sharedserialization.shared.BuildConfig
