@@ -16,3 +16,4 @@ local.properties
 /androidApp/build/
 /build/
 /shared/build/
+/iosApp/Pods/
