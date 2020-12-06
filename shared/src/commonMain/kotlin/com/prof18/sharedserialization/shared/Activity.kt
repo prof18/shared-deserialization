@@ -6,7 +6,7 @@ import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 
 @Serializable
-class Activity(
+data class Activity(
     val activity: String,
     val type: String,
     val participants: Int,

@@ -27,12 +27,11 @@ struct CustomSerializer<T: BaseResponseDTO>: ResponseSerializer {
             return emptyValue
         }
         
-        let jsonString = try StringResponseSerializer().serialize(request: request,
-                                                                  response: response,
-                                                                  data: data,
-                                                                  error: error)
-        
         do {
+            let jsonString = try StringResponseSerializer().serialize(request: request,
+                                                                      response: response,
+                                                                      data: data,
+                                                                      error: error)
             
             let deserializedObject = try T().deserialize(jsonString: jsonString) as! T
             deserializedObject.makeFrozen()
