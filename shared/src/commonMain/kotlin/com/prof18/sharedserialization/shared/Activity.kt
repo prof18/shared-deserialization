@@ -1,6 +1,5 @@
 package com.prof18.sharedserialization.shared
 
-import co.touchlab.stately.freeze
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
@@ -17,8 +16,6 @@ data class Activity(
 ) : BaseResponseDTO() {
 
     override fun deserialize(jsonString: String): Activity {
-        val activity: Activity = Json.decodeFromString(jsonString)
-        activity.freeze()
-        return activity
+        return Json.decodeFromString(jsonString)
     }
 }

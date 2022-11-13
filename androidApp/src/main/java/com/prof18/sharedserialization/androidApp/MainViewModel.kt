@@ -35,6 +35,4 @@ class MainViewModel : ViewModel() {
             _appState.value = AppState.Success(data = activity.activity)
         }
     }
-
-
 }

@@ -34,7 +34,6 @@ struct CustomSerializer<T: BaseResponseDTO>: ResponseSerializer {
                                                                       error: error)
             
             let deserializedObject = try T().deserialize(jsonString: jsonString) as! T
-            deserializedObject.makeFrozen()
             return deserializedObject
             
         } catch {

@@ -17,3 +17,4 @@ local.properties
 /build/
 /shared/build/
 /iosApp/Pods/
+/.idea/git_toolbox_prj.xml
